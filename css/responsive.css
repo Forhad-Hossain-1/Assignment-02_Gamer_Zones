@@ -1,0 +1,43 @@
+/* mobile view responsive */
+@media screen and (max-width:576px){
+
+/* navbar section reponsive */
+header{
+    
+}    
+.nav-container {
+        flex-direction: column;
+    }
+    .nav-menu{
+        flex-direction: column;
+    }
+    a, .nav-btn{
+        margin-left: 0px;
+        margin-bottom:15px;
+    }
+
+/* banner section */
+.banner{
+    flex-direction: column;
+    flex-direction: column-reverse;
+}
+.banner-left-content {
+    width: fit-content;
+    margin-left: -90px
+}
+.banner-img img {
+    margin-left:50px;
+}
+
+}
+
+
+
+/* tab view responsive */
+@media screen and (min-width:576px) and (max-width:960px)
+
+
+
+
+
+
